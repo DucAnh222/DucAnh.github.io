@@ -1,0 +1,9 @@
+
+.card img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }

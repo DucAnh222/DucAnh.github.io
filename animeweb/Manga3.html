@@ -1,0 +1,55 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+body {
+     background: #f1f1f1;
+}
+ body h1 {
+   font-family: 'Roboto Slab', serif;
+     margin: 50px 20px 40px;
+     font-size: 50px;
+     letter-spacing: 0.5px;
+     color: #999;
+     text-align: center;
+}
+ .rating {
+     width: 208px;
+     height: 40px;
+     margin: 0 auto;
+     padding: 40px 50px;
+     border: 1px solid #ccc;
+     background: #f9f9f9;
+}
+ .rating label {
+     float: right;
+     position: relative;
+     width: 40px;
+     height: 40px;
+     cursor: pointer;
+}
+ .rating label:not(:first-of-type) {
+     padding-right: 2px;
+}
+ .rating label:before {
+     content: "\2605";
+     font-size: 42px;
+     color: #ccc;
+     line-height: 1;
+}
+ .rating input {
+     display: none;
+}
+ .rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
+     color: #f9df4a;
+}
+</style>
+
+
+<iframe src="https://read.bookcreator.com/XEWbNx5bgXSqt4LHXLYMSS1T2793/si1d0RlrQAW52xRL32Uibw/sF2dyM_CQY2RikpYWVpNRQ" height="600" width="660" allow="clipboard-write self https://read.bookcreator.com"></iframe>
+<div class="rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+</div> 
+<a href="Manga.html" class="w3-button w3-black w3-padding-large w3-margin-bottom">Back</a>
